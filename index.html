@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPFinal - Curriculum </title>
+    <link rel="stylesheet" href= "Styles.css">
+    <link rel="icon" href="icono.ico">
+</head>
+
+<body>
+  <header>
+    <img src="./media/fotocv.jpeg" alt="Mi foto de perfil";  width= "250px"; height="310px" >
+    <div>
+      <h4>Hola, mi nombre es: </h4>
+      <h1> Ellenberger, Gisela Natalia </h1>
+      <h5> Edad: 35 </h5>
+      <h5> Dirección: Salta 380 - Paraná - Entre Ríos </h5>
+      <h5> Telefono: 154546466 </h5>   
+      <h5> Correo electrónico: petty1611@hotmail.com </h5>     
+    </div>  
+  </header>  
+  <section>
+    <nav>
+      <table width=1000>
+        <td><a href="#resumen"> <b> | Home |       </b> </a></td>
+        <td><a href="#cuerpo"> <b> | Antecedentes |     </b></a> </td>
+        <td><a href="#contacto"> <b> | Contacto |   </b></a> </td>
+        <td> <audio controls autoplay loop>
+          <source src="./media/Wos-Arrancarmelo.mp3"/> 
+        Tu navegador no es compatible con esta reproducción </audio></td>
+      </table>
+    </nav> 
+  </section>  
+ 
+
+  <hr>   
+  <div  class =" resumen " >
+    <p id="Home"> </p>
+        <h2>   Objetivos: </h2>     
+           <ul>
+             <li> Desarrollarme en un ambiente de trabajo que me lleve a nuevas fronteras de conocimiento, aprender cosas nuevas y poner en práctica todas mis habilidades
+           </ul>
+    </div> _ _ 
+ 
+    <div  class =" titulos " >
+      <p id="cuerpo"> </p>
+        <h2>   Experiencia laboral: </h2>
+        <i class="fa-solid fa-snowflake"></i>
+          <ul>
+            <li> <p> Desde  2007 a 2010: Pasante, Universidad Autonoma de Entre Ríos - (Mantenimiento Equipos Sala de Informática).-</p> </li>
+            <li> <p> Desde  2011 a 2015: Técnica y Supervisor Sistema ILS (Instrument Landing Sistem), Aeropuerto Bariloche y Aeropuerto Esquel.- Empresa: Grupo Río de la Plata SA (Ref. Sr. Eduardo Galinelli, 011 5425 8515).- </p></li>
+            <li> <p> Desde 2015 a 2020: Técnica en el laboratorio de análisis bioquímicos, Santa Fe </p></li>
+            <li> <p> Desde 2020 a la actualidad: Administrativo sector inmobiliario, Santa Fe</p> </li>
+          </ul>
+    </div> _ _ 
+      
+    <div  class =" titulos " >
+        <h2>   Formación Académica: </h2>  
+          <ul>
+            <li>  <a  href = " http://www.escuelasecundaria48-parana.edu.ar/ " > <p> Escuela Secundaria Nº 48, Paraná, Entre Ríos - 2006   </p>  </a>
+            <li>  <a  href = " https://fcytvirtual.uader.edu.ar/ " > <p> Licenciatura en Criminalística, Paraná, Entre Ríos - 2014 </p>  </a>  </li>
+            <li>  <a  href = "https://www.fcad.uner.edu.ar/tecnicatura-universitaria-en-desarrollo-web/ " > <p> Licenciatura en Programación Web, Concordia, Entre Ríos - 2020 </p>  </a>  </li>
+            </ul>
+    </div> _ _   
+
+    <div  class =" cuerpo " >
+        <h2> Cualificaciones: </h2>
+          <ul>
+            <li><p> Ingles: Nivel Medio <progress value="50" max="100"></progress></p> </li>
+            <li><p> Italiano: Nivel básico <progress value="25" max="100"></progress></p> </li>
+            <li><p> Conocimientos en el area de programación <progress value="30" max="100"></progress></p></li>
+            <li><p> Facturación y liquidación de sueldos <progress value="100" max="100"></progress></p> </li>    
+          </ul>
+    </div> _ _ 
+        
+    <p id="contacto"> </p>
+          <div  class =" contácteme " >
+            <h2 > Póngase en contacto: </h2 >
+            <a  class =" mail " href =" petty1611@hotmail.com " > CONTACTAME </a>
+              <div class="camposform">
+                <label> Nombre </label>
+                <input type="text" id="Nombre" placeholder="Nombre">
+            </div>
+
+            <div class="camposform">
+                <label> Apellido</label>
+                <input type="text" id="Apellido" placeholder="Apellido">
+            </div>
+        
+            <div class="camposform">
+                <label> E-mail</label>
+                <input type="email" id="email" placeholder="Direccion de e-mail">
+            </div>
+
+            <div class="camposform">
+                <label> Telefono </label>
+                <input type="tel" id="tel" placeholder="Teléfono">
+            </div>
+
+            <div class="camposform">
+                <label> Mensaje</label> </label>
+                <textarea name="mensaje" id="msge" cols="30" rows="4" placeholder="Motivo del contacto" ></textarea>
+            </div>
+
+            <div class="camposformbutton">
+                <button type="submit" class="btnsuccess" value="Validar correo" onclick="validarcorreo(document.getElementById('email').value)"\> Enviar contacto</button>
+                <p class="atencion" id="atencion"></p>
+            </div>
+                <script src="form.js"></script>
+            </div>
+
+    <footer>      
+        <div class="bottom-text">
+          <h3> Mis redes: </h3>
+            <a  class="footer-link" href="https://www.linkedin.com/in/gisela-natalia-ellenberger-6489b6266/">LinkedIn 
+            <img src="https://cdn-icons-png.flaticon.com/128/1384/1384155.png" alt="LinkedIn"  width="25xp" height="25xp"> </a>            
+            <a class="footer-link" href="https://github.com/NaGi1611">  Github 
+            <img src="https://cdn-icons-png.flaticon.com/128/25/25231.png" alt="Github" width=25xp height=25xp> </a>      
+            <a class="footer-link" href="https://www.instagram.com/ellen_nagi"> Instagram 
+            <img src="https://cdn.iconscout.com/icon/free/png-256/instagram-1464521-1239436.png" alt="Instagram" width="25xp" height="25xp"> </a> 
+        </div>  
+        <p>      
+        </p> 
+      <div class="mapa">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3393.4765144842286!2d-60.523801399999996!3d-31.730191899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b45277568336c7%3A0x811bfb8ee286fd76!2zU2FsdGEgMzgwLCBQYXJhbsOhLCBFbnRyZSBSw61vcw!5e0!3m2!1ses!2sar!4v1679622696123!5m2!1ses!2sar" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>       
+     _ _            
+      <p  class =" footer-legal " > 2022 © NaGhi - Todos los derechos reservados </p> 
+    </footer>
+
+</body>
+</html>
+

@@ -1,0 +1,62 @@
+:root {
+    --nord0: #88C0D0;
+    --nord1: #81A1CA; 
+    --principal-btn-color :  #9147ff ;
+    --principal-btn-activo :  #f3f3f3 ;
+    --main-bground-color :  #33333365 ;
+    --front:  "Segoe UI", 'Hind Siliguri' , "Arial", sans-serif;
+   
+  }
+/* {outline: 1px solid olive;} Para ver las lineas */ 
+body {
+  font-family: var(--front);
+  color: black;
+  width: 1060px;
+  margin: 35px; 
+}
+
+img {
+   margin-right: 26px;     
+  } 
+
+header {
+  width: 1060px;
+  height: 280px;
+  background-color: var(--principal-btn-color);
+  display: flex;
+  border:  10px #772ce8 ;  
+  color: var(--principal-btn-activo);
+  padding-top: 5px;
+  padding-left: 16px;
+}
+
+nav {
+  display: flex;
+  padding-left: 150px ;
+
+}
+
+section {
+    width: 1000px;
+    margin: 2rem ;
+    border: 56px #772ce8 ; 
+    padding-left: 16px;
+} 
+.mapa{
+  border: 2px solid #772ce8 ;
+}
+
+ul {
+  list-style-type: "👾";
+  
+} 
+
+a, a:link, a:visited, a:hover {
+  text-decoration: none;
+  color: var(--nord1);
+}
+
+footer {
+    width: 1050px;
+    height: 50px;
+} 
