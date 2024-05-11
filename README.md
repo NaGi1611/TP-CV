@@ -1,1 +1,1 @@
-# tp-cv Trabajo práctico para Codo a Codo 2024
+# tp-cv Trabajo práctico para Fround and Academy 2024
